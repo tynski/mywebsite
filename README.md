@@ -1,9 +1,4 @@
-TODO
-Tags:
-- article
-- main
-- header
-
+TODO:
 Images -> alt
 
 Add star animation

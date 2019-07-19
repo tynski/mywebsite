@@ -24,8 +24,12 @@ a {
 	transition-timing-function: ease-out;
 }
 
+a:hover{
+	color: white;
+}
+
 .bg-image{
-	background-image: url('../images/showcase.jpg');
+	background-image: url('../images/bg-img.jpg');
 	width: 100%;
 	height: 100%;
 	opacity: .2;
@@ -39,7 +43,7 @@ a {
 	transition: opacity .5s;
 }
 
-#main-page{
+#home{
 	display: flex;
 	height: 95vh;
 	flex-direction: column;
@@ -48,13 +52,7 @@ a {
 	max-width: 93%;
 	margin: auto;
 	font-size: 1.5rem;
-}
-
-#home{
-	display: flex;
 	flex-grow: 1;
-	flex-direction: column;
-	justify-content: center;
 }
 
 #home-title{

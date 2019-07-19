@@ -3,6 +3,7 @@ html{
 	line-height: 1.6em;
 	letter-spacing: .06em;
 	scroll-behavior: smooth;
+	caret-color: transparent;
 }
 
 body{

@@ -1,6 +1,6 @@
 html{
 	background: #2f3034;
-	line-height: 1.6;
+	line-height: 1.6em;
 	letter-spacing: .06em;
 	scroll-behavior: smooth;
 }
@@ -19,14 +19,12 @@ a {
 	color: #c6cddb;
 	text-decoration: none;
 	border: none;
-	transition-property: color;
-	transition-duration: .4s;
-	transition-timing-function: ease-out;
 	outline: 0;
 }
 
 a:hover{
 	color: white;
+	cursor: pointer;
 }
 
 .bg-image{
@@ -41,7 +39,6 @@ a:hover{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50%;
-	transition: opacity .5s;
 }
 
 #home{
@@ -54,6 +51,10 @@ a:hover{
 	margin: auto;
 	font-size: 1.5rem;
 	flex-grow: 1;
+}
+
+#home:hover{
+	cursor: default;
 }
 
 #home-title{

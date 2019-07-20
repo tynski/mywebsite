@@ -2,12 +2,11 @@ html{
 	background: #2f3034;
 	letter-spacing: .06em;
 	scroll-behavior: smooth;
-	caret-color: transparent;
 }
 
 body{
 	color: #c6cddb;
-	font-family: trebuchet ms,Verdana,verdana ref,segoe ui,Candara,lucida grande,lucida sans unicode,lucida sans,Tahoma,sans-serif;
+	font-family: trebuchet ms,Verdana,lucida sans,Tahoma,sans-serif;
 	margin: 0;
 }
 
@@ -25,6 +24,14 @@ a {
 a:hover{
 	color: white;
 	cursor: pointer;
+}
+
+p{
+	caret-color: transparent;
+}
+
+p:hover{
+	cursor: default;
 }
 
 .bg-image{
@@ -47,10 +54,10 @@ a:hover{
 	align-items: center;
 	justify-content: center;
 	margin: auto;
-	height: 90vh;				
+	height: 93vh;				
 	flex-wrap: wrap;
 	font-size: 1.5em;
-	line-height: 1.6em;
+	caret-color: transparent;
 }
 
 #home:hover{
@@ -63,10 +70,8 @@ a:hover{
 }
 
 #home-subtitle{
-	margin-top: 0;
-	margin-bottom: 1.5em;
 	text-align: center;
-	line-height: normal;
+	line-height: 1.8em;
 	font-size: .7em;
 	font-style: italic;
 	opacity: .9;
@@ -79,7 +84,8 @@ a:hover{
 }
 
 #navbar{
-	opacity: .8;		
+	opacity: .8;
+	line-height: 1.4em;			
 }
 
 #navbar a{
@@ -91,7 +97,6 @@ a:hover{
 #main-footer{
 	text-align: center;
 	font-size: .8em;
-	line-height: normal;
 	opacity: .6;
 	align-self: flex-end;
 }

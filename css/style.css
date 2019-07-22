@@ -35,7 +35,6 @@ p:hover{
 }
 
 .bg-image{
-	background-image: url('../images/bg-img.jpg');
 	width: 100%;
 	height: 100%;
 	opacity: .1;
@@ -48,20 +47,27 @@ p:hover{
 	background-position: 50%;
 }
 
-#home{
+main{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	margin: auto;
 	height: 93vh;				
-	flex-wrap: wrap;
-	font-size: 1.5em;
+	flex-wrap: wrap;	
 	caret-color: transparent;
+}
+
+#home{
+	font-size: 1.5em;
 }
 
 #home:hover{
 	cursor: default;
+}
+
+#home-bg{
+	background-image: url('../images/bg-img.jpg');
 }
 
 #home-title{
@@ -99,4 +105,12 @@ p:hover{
 	font-size: .8em;
 	opacity: .6;
 	align-self: flex-end;
+}
+
+#about-bg{
+	background-image: url('../images/about-img.jpg')
+}
+
+#about{
+	font-size: 1.em;
 }

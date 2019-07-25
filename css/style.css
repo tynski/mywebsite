@@ -47,19 +47,15 @@ p:hover{
 	background-position: 50%;
 }
 
-main{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	margin: auto;
-	height: 93vh;				
-	flex-wrap: wrap;	
+main{				
 	caret-color: transparent;
+	text-align: center;
+	display: block;
 }
 
 #home{
 	font-size: 1.5em;
+	margin-top: 7em;	
 }
 
 #home:hover{
@@ -77,10 +73,20 @@ main{
 
 #home-subtitle{
 	text-align: center;
-	line-height: 1.8em;
+	line-height: 0;
 	font-size: .7em;
 	font-style: italic;
 	opacity: .9;
+}
+
+#navbar{
+	opacity: .8;
+	line-height: 1.4em;			
+}
+
+#home-about{
+	font-size: 1.5em;
+	line-height: 2em;
 }
 
 #social-media{
@@ -89,22 +95,12 @@ main{
 	opacity: .8;
 }
 
-#navbar{
-	opacity: .8;
-	line-height: 1.4em;			
-}
-
-#navbar a{
-	display: block;
-	text-align: center;
-	margin-top: .5em;
-}
-
 #main-footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	font-size:0.5em;
 	text-align: center;
-	font-size: .8em;
-	opacity: .6;
-	align-self: flex-end;Besides coding I like drinking coffee, but not this typical. Specialty coffee is the best possible quality of beans. Why it is so important? Only this way one can dive into diverse sensational world of coffee with all smells and flavors. I like to be impressed by  cup of my favorite beverage. Another day, another coffee.
 }
 
 #about-bg{
@@ -112,8 +108,13 @@ main{
 }
 
 #about{
+	margin-top: 7em;
 	font-size: 1.em;
 	margin-right: 2em;
+}
+
+#about-title{
+	padding-left: 30%;
 }
 
 img{

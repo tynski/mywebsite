@@ -49,13 +49,14 @@ p:hover{
 
 main{				
 	caret-color: transparent;
-	text-align: center;
 	display: block;
+	margin: auto;
 }
 
 #home{
 	font-size: 1.5em;
-	margin-top: 7em;	
+	margin-top: 7em;
+	text-align: center;	
 }
 
 #home:hover{
@@ -108,19 +109,21 @@ main{
 }
 
 #about{
-	margin-top: 7em;
+	margin-top: 10%;
 	font-size: 1.em;
 	margin-right: 2em;
 }
 
 #about-title{
-	padding-left: 30%;
+	text-align: center;
+	line-height: 1.8em;
 }
 
 img{
 	float: left;
 	margin-left: 2em;
 	margin-right: 2em;
+	margin-bottom: 2em;
 }
 
 .clearfix::after {

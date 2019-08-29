@@ -169,6 +169,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
   
   .welcome-section > p {
@@ -187,7 +189,7 @@
   
   .projects-section {
     text-align: center;
-    padding: 10rem 1rem;
+    padding: 8rem 1rem;
     background: var(--main-gray);
   }
   
@@ -247,6 +249,7 @@
 
   .project-title:hover{
     background: var(--main-red);
+    color: var(--main-white);
   }
   
   .btn {
@@ -264,6 +267,7 @@
   
   .btn-show-all:hover {
     background: var(--main-red);
+    color: var(--main-white);
   }
   
   .btn-show-all:hover > i {
@@ -340,6 +344,7 @@
   
   footer > p {
     margin: 2rem;
+    color: var(--main-white);
   }
   
   footer i {

@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/tynski/mywebsite/issues"
   },
-  "homepage": "https://github.com/tynski/mywebsite#readme",
+  "homepage": "https://github.com/tynski/mywebsite",
   "dependencies": {
     "gh-pages": "^2.1.1"
   }

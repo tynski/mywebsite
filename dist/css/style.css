@@ -1,7 +1,7 @@
 /* Custom properties/variables  */
 :root {
     --main-white: #f0f0f0;
-    --main-red: #be3144;
+    --main-red: #d32531;
     --main-blue: #45567d;
     --main-gray: #303841;
   }
@@ -100,7 +100,7 @@
   
   a {
     text-decoration: none;
-    color: var(--main-white);
+    color: var(--main-gray);
   }
   
   img {
@@ -122,7 +122,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background: var(--main-red);
+    background: var(--main-white);
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
     z-index: 10;
   }
@@ -157,7 +157,6 @@
   
   .welcome-section {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -171,6 +170,14 @@
     font-weight: 200;
     font-style: italic;
     color: var(--main-grey);
+  }
+
+  .welcome-image {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   /* Projects section */
@@ -230,6 +237,12 @@
   .project-title {
     font-size: 2rem;
     padding: 2rem 0.5rem;
+    line-height: 1.0;
+    transition: background 0.3s ease-out;
+  }
+
+  .project-title:hover{
+    background: var(--main-red);
   }
   
   .btn {
@@ -315,7 +328,10 @@
     justify-content: space-evenly;
     padding: 0.5rem;
     background: var(--main-gray);
-    border-top: 4px solid var(--main-red);
+  }
+
+  footer a{
+    color: var(--main-white);
   }
   
   footer > p {

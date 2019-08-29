@@ -73,7 +73,7 @@
     font-size: 1.8rem; /* 18px */
     font-weight: 400;
     line-height: 1.4;
-    color: var(--main-white);
+    background-color: var(--main-white);
   }
   .code {
     color: var(--main-gray);
@@ -146,6 +146,11 @@
     display: block;
     font-size: 2.2rem;
     padding: 2rem;
+    color: var(--main-gray);
+  }
+
+  .navigate:hover{
+    color: var(--main-red); 
   }
 
   .code {
@@ -156,13 +161,14 @@
   /* Welcome section */
   
   .welcome-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
     height: 100vh;
+    width: 100%;
     background-color: var(--main-white);
     color: var(--main-gray);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
   
   .welcome-section > p {
@@ -173,11 +179,8 @@
   }
 
   .welcome-image {
-    height: 50%;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 40%;
+    width: 40%;
   }
   
   /* Projects section */
@@ -191,6 +194,7 @@
   .projects-section-header {
     max-width: 640px;
     margin: 0 auto 6rem auto;
+    color: var(--main-white);
   }
   
   @media (max-width: 28.75em) {
@@ -208,7 +212,7 @@
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
 
   }
   

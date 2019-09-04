@@ -1,7 +1,7 @@
 {
   "name": "mywebsite",
-  "version": "1.0.0",
-  "description": "TODO: devices compability",
+  "version": "1.5.0",
+  "description": "portfolio",
   "main": "index.js",
   "scripts": {
     "deploy": "gh-pages -d dist"

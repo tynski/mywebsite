@@ -174,7 +174,7 @@
     justify-content: center;
     align-items: center;
     padding-left: 1rem;
-    padding-top: 10rem;
+    padding-top: 7rem;
     padding-bottom: 5rem;
     padding-right: 1rem;
   }
@@ -182,11 +182,6 @@
   @media (max-width: 61.25em){
     .welcome-section{
       flex-direction: column;
-    }
-  }
-
-  @media (max-width: 28.75em){
-    .welcome-section{
       height: auto;
     }
   }
@@ -198,10 +193,6 @@
     color: var(--main-grey);
   }
 
-  .welcome-image {
-    height: 40%;
-    width: 40%;
-  }
   
   /* Projects section */
   
@@ -315,6 +306,12 @@
   
   .contact-section-header > h2 {
     font-size: 6rem;
+  }
+
+  @media (max-width: 61.25){
+    .contact-section{
+      height: auto;
+    }
   }
   
   @media (max-width: 28.75em) {
